@@ -126,9 +126,4 @@
         android:key="battery"
         android:title="@string/battery" />
 
-    <com.android.systemui.tuner.StatusBarSwitch
-        android:icon="@drawable/ic_statusbar_clock"
-        android:key="clock"
-        android:title="@string/clock" />
-
 </PreferenceScreen>
