@@ -38,4 +38,17 @@
             android:progressDrawable="@drawable/brightness_progress_drawable"
             android:splitTrack="false"
         />
+
+        <ImageButton
+            android:id="@+id/brightness_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20.0dip"
+            android:background="@drawable/brightness_bg"
+            android:src="@drawable/ic_qs_brightness_auto_off"
+            android:tint="?android:attr/textColorPrimaryInverse"
+            android:contentDescription="@null"
+            android:visibility="gone"
+        />
     </com.android.systemui.settings.brightness.BrightnessSliderView>
