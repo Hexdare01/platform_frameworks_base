@@ -246,4 +246,9 @@ interface IStatusBarService
     void toggleCameraFlash();
 
     void killForegroundApp();
+
+    /**
+     * Toggle recent apps.
+     */
+    void toggleRecentApps();
 }
