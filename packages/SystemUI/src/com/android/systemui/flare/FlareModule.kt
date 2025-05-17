@@ -23,6 +23,7 @@ import com.android.systemui.qs.tiles.AutoBrightnessTile
 import com.android.systemui.qs.tiles.CaffeineTile
 import com.android.systemui.qs.tiles.CellularTile
 import com.android.systemui.qs.tiles.DataSwitchTile
+import com.android.systemui.qs.tiles.FivegTile
 import com.android.systemui.qs.tiles.HeadsUpTile
 import com.android.systemui.qs.tiles.PowerShareTile
 import com.android.systemui.qs.tiles.SyncTile
@@ -108,4 +109,10 @@ interface FlareModule {
     @IntoMap
     @StringKey(WifiTile.TILE_SPEC)
     fun bindWifiTile(wifiTile: WifiTile): QSTileImpl<*>
+
+    /** Inject FivegTile into tileMap in QSModule */
+    @Binds
+    @IntoMap
+    @StringKey(FivegTile.TILE_SPEC)
+    fun bindFivegTile(fivegTile: FivegTile): QSTileImpl<*>
 }
