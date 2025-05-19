@@ -79,8 +79,4 @@
     <string name="reboot_title">Reboot</string>
     <string name="reboot_message">Rebooting system</string>
 
-    <!-- System Reboot -->
-    <string name="system_reboot_title">System reboot required</string>
-    <string name="system_reboot_message">For all the changes to take effect, a system reboot is required.</string>
-    
 </resources>
