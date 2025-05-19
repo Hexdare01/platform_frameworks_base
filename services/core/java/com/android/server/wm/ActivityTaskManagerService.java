@@ -261,7 +261,7 @@ import com.android.internal.protolog.ProtoLog;
 import com.android.internal.util.ArrayUtils;
 import com.android.internal.util.FastPrintWriter;
 import com.android.internal.util.FrameworkStatsLog;
-import com.android.internal.util.PropImitationHooks;
+import com.android.internal.util.flare.PropsHooksUtils;
 import com.android.internal.util.function.pooled.PooledLambda;
 import com.android.server.LocalManagerRegistry;
 import com.android.server.LocalServices;
